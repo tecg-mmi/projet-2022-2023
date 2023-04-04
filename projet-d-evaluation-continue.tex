@@ -1,5 +1,32 @@
-\input{/Users/daniel/Documents/LaTeX/article-style.tex}
-
+\documentclass[11pt, a4paper]{article}
+\usepackage[hmargin=1.5cm,vmargin=2.5cm]{geometry}
+\usepackage{amstext}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{colortbl}
+\usepackage[pagestyles]{titlesec}
+\usepackage{titletoc}
+\usepackage{float}
+\usepackage{datetime}
+\usepackage{bookmark}
+\usepackage{parskip}
+\usepackage{keyval}
+\usepackage{fancyvrb}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ifthen}
+\usepackage{calc}
+\usepackage{ifplatform}
+\usepackage{csquotes}
+\usepackage{lastpage}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\usepackage{svg}
 \hypersetup{
   pdfauthor = {Daniel Schreurs},
   pdftitle = {Développement d'applications mobiles : Projet d'examen},
@@ -54,6 +81,7 @@
 \date{2022 -- 2023}
 
 
+
 \begin{document}
 
 \pagestyle{mypagestyle}
@@ -90,7 +118,7 @@ Votre dépôt doit au moins contenir :
 \begin{itemize}
   \item Un document \verb!readme.md! à la racine avec :
         \begin{itemize}
-          \item Une présentation du jeu que vous souhaitez reproduire. Donc qui l'a inventé, son contexte, langage, etc.
+          \item Une présentation du jeu que vous souhaitez reproduire. Qui l'a inventé ? Dans quel contexte ? Le langage, etc.
           \item Si vous créez votre propre jeu, vous devez fournir une petite étude de l'existant. Quels sont les jeux qui y ressemblent~avec éventuellement un avis.
           \item Détailler les règles du jeu.
           \item Fournir la liste des règles que vous allez reprendre et/ou adapter.
@@ -104,7 +132,7 @@ Votre dépôt doit au moins contenir :
 \section{Évaluation}
 
 Ce projet constitue l'une des 2 cotes de l'évaluation continue (20\%). En plus de fournir une expérience utilisateur aboutie, votre jeu doit nécessairement respecter l'ensemble des \href{https://github.com/hepl-dcc/dcc-guidelines}{bonnes pratiques JavaScript} et \href{https://github.com/hepl-mmi/mmi-guidelines}{TypeScript}.
-Ce projet sera clôturé, la veille du jour de l'examen. Vous devez publier votre jeu grâce aux \href{https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site}{GitHub Pages}. Il s'agit simplement d'une option à activer dans les réglages de votre projet, comme illustré dans la capture ci-dessous.
+Ce projet sera clôturé, le jour de l'examen à 08h. Vous devez publier votre jeu grâce aux \href{https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site}{GitHub Pages}. Il s'agit simplement d'une option à activer dans les réglages de votre projet, comme illustré dans la capture ci-dessous.
 
 \vspace*{1cm}
 
