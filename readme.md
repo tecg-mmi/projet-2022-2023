@@ -1,2 +1,2 @@
-# MMI - Multimédia Intéractif - 2021-2022
+# MMI - Multimédia Intéractif - 2022-2023
 
